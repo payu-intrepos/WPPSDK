@@ -1,1 +1,1 @@
-# MyRepo
+# WPPSDK-iOS

@@ -1,0 +1,80 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WPPSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import Foundation
+import MeaPushProvisioning
+import PassKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc final public class WibmoPushProvisionSDK : ObjectiveC.NSObject {
+  public static var canAddPaymentPass: Swift.Bool {
+    get
+  }
+  public static func canAddCard(primaryAccountIdentifier: Swift.String) -> Swift.Bool
+  public static func configSDK(with config: [Swift.String : Any])
+  public static func checkWallet(cardData: [Swift.String : Any], completion: @escaping (Swift.Result<[WPPSDK.WPPTokenInfo], any Swift.Error>) -> Swift.Void)
+  public static func startProvisioning(encryptedData: WPPSDK.WPPEncryptedCardData, completion: @escaping (Swift.Result<WPPSDK.WPPInitResponse, any Swift.Error>) -> Swift.Void)
+  public static func presentAddToWallet(from viewController: UIKit.UIViewController, completion: @escaping (Swift.Result<PassKit.PKPaymentPass, any Swift.Error>) -> Swift.Void)
+  public static func completeProvisioning(tokenizationData: WPPSDK.CompletionData, completion: @escaping (Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> Swift.Void)
+  public static func reset()
+  public static var sdkVersion: Swift.String {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias WibmoPushProvisioning = WPPSDK.WibmoPushProvisionSDK
+@objc @objcMembers final public class CompletionData : ObjectiveC.NSObject {
+  @objc final public let certificates: [Foundation.Data]
+  @objc final public let nonce: Foundation.Data
+  @objc final public let nonceSignature: Foundation.Data
+  @objc public init(certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers final public class WPPInitResponse : ObjectiveC.NSObject {
+  @objc final public let requestConfiguration: PassKit.PKAddPaymentPassRequestConfiguration?
+  @objc final public let canAddToWallet: Swift.Bool
+  @objc final public let cardholderName: Swift.String?
+  @objc final public let lastFourDigits: Swift.String?
+  @objc final public let primaryAccountIdentifier: Swift.String?
+  @objc final public let paymentNetwork: PassKit.PKPaymentNetwork?
+  @objc deinit
+}
+public enum WPPError : Swift.Error, Foundation.LocalizedError {
+  case invalidState
+  case validationFailed
+  case backendFailure
+  case tokenizationFailed
+  case sessionExpired
+  case cardNotEligible
+  case notConfigured
+  case encryptionFailed
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: WPPSDK.WPPError, b: WPPSDK.WPPError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers final public class WPPTokenInfo : ObjectiveC.NSObject {
+  @objc final public let primaryAccountIdentifier: Swift.String
+  @objc final public let deviceAccountIdentifier: Swift.String?
+  @objc final public let deviceAccountNumberSuffix: Swift.String?
+  @objc deinit
+}
+@objc @objcMembers final public class WPPEncryptedCardData : ObjectiveC.NSObject {
+  @objc final public let encryptedCardData: Swift.String
+  @objc final public let publicKeyFingerprint: Swift.String
+  @objc final public let encryptedKey: Swift.String
+  @objc final public let initialVector: Swift.String
+  @objc public init(encryptedCardData: Swift.String, publicKeyFingerprint: Swift.String, encryptedKey: Swift.String, initialVector: Swift.String)
+  @objc deinit
+}
+extension WPPSDK.WPPError : Swift.Equatable {}
+extension WPPSDK.WPPError : Swift.Hashable {}
