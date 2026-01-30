@@ -24,12 +24,12 @@ let package = Package(
     
     targets: [
         .binaryTarget(name: "WPPSDK", path: "./Frameworks/WPPSDK.xcframework"),
-        .binaryTarget(name: "MeaPushProvisioning", path: "./Frameworks/MeaPushProvisioning.xcframework"),
+        .binaryTarget(name: "WPPCoreSDK", path: "./Frameworks/WPPCoreSDK.xcframework"),
         .target(
             name: "WPPSDKTarget",
             dependencies: [
                 "WPPSDK",
-                "MeaPushProvisioning",
+                "WPPCoreSDK",
                 .product(name: "PayUIndia-CrashReporter", package: "PayUCrashReporter-iOS"),
             ],
             path: "Wrappers/WPPKitWrapper",
