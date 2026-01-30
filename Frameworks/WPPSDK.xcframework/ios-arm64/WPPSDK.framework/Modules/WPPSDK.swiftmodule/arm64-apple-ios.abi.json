@@ -15,6 +15,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "WPPTokenInfo",
         "printedName": "WPPTokenInfo",
@@ -2672,44 +2682,34 @@
             "mangledName": "$ss8SendableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WPPSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/amit.salaria\/Downloads\/WPPSDK\/WPPSDK\/Network\/WPPBackendClient.swift",
+      "filePath": "\/Users\/amit.salaria\/Downloads\/WPPSDK-final\/WPPSDK\/Network\/WPPBackendClient.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 33,
       "value": "\"https:\/\/itsp.pc.enstage-sas.com\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Downloads\/WPPSDK\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
+      "filePath": "\/Users\/amit.salaria\/Downloads\/WPPSDK-final\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 293,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Downloads\/WPPSDK\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
+      "filePath": "\/Users\/amit.salaria\/Downloads\/WPPSDK-final\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 5,
       "value": "\"UAT\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Downloads\/WPPSDK\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
+      "filePath": "\/Users\/amit.salaria\/Downloads\/WPPSDK-final\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 2,

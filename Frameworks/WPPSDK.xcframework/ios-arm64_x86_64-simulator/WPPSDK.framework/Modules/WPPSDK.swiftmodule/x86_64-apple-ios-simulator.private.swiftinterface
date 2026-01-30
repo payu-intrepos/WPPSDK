@@ -10,31 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @objc final public class WibmoPushProvisionSDK : ObjectiveC.NSObject {
-  public static var canAddPaymentPass: Swift.Bool {
-    get
-  }
-  public static func canAddCard(primaryAccountIdentifier: Swift.String) -> Swift.Bool
-  public static func configSDK(with config: [Swift.String : Any])
-  public static func checkWallet(cardData: [Swift.String : Any], completion: @escaping (Swift.Result<[WPPSDK.WPPTokenInfo], any Swift.Error>) -> Swift.Void)
-  public static func startProvisioning(encryptedData: WPPSDK.WPPEncryptedCardData, completion: @escaping (Swift.Result<WPPSDK.WPPInitResponse, any Swift.Error>) -> Swift.Void)
-  public static func presentAddToWallet(from viewController: UIKit.UIViewController, completion: @escaping (Swift.Result<PassKit.PKPaymentPass, any Swift.Error>) -> Swift.Void)
-  public static func completeProvisioning(tokenizationData: WPPSDK.CompletionData, completion: @escaping (Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> Swift.Void)
-  public static func reset()
-  public static var sdkVersion: Swift.String {
-    get
-  }
-  @objc override dynamic public init()
-  @objc deinit
-}
-public typealias WibmoPushProvisioning = WPPSDK.WibmoPushProvisionSDK
-@objc @objcMembers final public class CompletionData : ObjectiveC.NSObject {
-  @objc final public let certificates: [Foundation.Data]
-  @objc final public let nonce: Foundation.Data
-  @objc final public let nonceSignature: Foundation.Data
-  @objc public init(certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data)
-  @objc deinit
-}
 @objc @_hasMissingDesignatedInitializers @objcMembers final public class WPPInitResponse : ObjectiveC.NSObject {
   @objc final public let requestConfiguration: PassKit.PKAddPaymentPassRequestConfiguration?
   @objc final public let canAddToWallet: Swift.Bool
@@ -74,6 +49,31 @@ public enum WPPError : Swift.Error, Foundation.LocalizedError {
   @objc final public let encryptedKey: Swift.String
   @objc final public let initialVector: Swift.String
   @objc public init(encryptedCardData: Swift.String, publicKeyFingerprint: Swift.String, encryptedKey: Swift.String, initialVector: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc final public class WibmoPushProvisionSDK : ObjectiveC.NSObject {
+  public static var canAddPaymentPass: Swift.Bool {
+    get
+  }
+  public static func canAddCard(primaryAccountIdentifier: Swift.String) -> Swift.Bool
+  public static func configSDK(with config: [Swift.String : Any])
+  public static func checkWallet(cardData: [Swift.String : Any], completion: @escaping (Swift.Result<[WPPSDK.WPPTokenInfo], any Swift.Error>) -> Swift.Void)
+  public static func startProvisioning(encryptedData: WPPSDK.WPPEncryptedCardData, completion: @escaping (Swift.Result<WPPSDK.WPPInitResponse, any Swift.Error>) -> Swift.Void)
+  public static func presentAddToWallet(from viewController: UIKit.UIViewController, completion: @escaping (Swift.Result<PassKit.PKPaymentPass, any Swift.Error>) -> Swift.Void)
+  public static func completeProvisioning(tokenizationData: WPPSDK.CompletionData, completion: @escaping (Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> Swift.Void)
+  public static func reset()
+  public static var sdkVersion: Swift.String {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias WibmoPushProvisioning = WPPSDK.WibmoPushProvisionSDK
+@objc @objcMembers final public class CompletionData : ObjectiveC.NSObject {
+  @objc final public let certificates: [Foundation.Data]
+  @objc final public let nonce: Foundation.Data
+  @objc final public let nonceSignature: Foundation.Data
+  @objc public init(certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data)
   @objc deinit
 }
 extension WPPSDK.WPPError : Swift.Equatable {}

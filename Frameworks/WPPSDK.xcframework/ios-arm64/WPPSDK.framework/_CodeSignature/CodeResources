@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		IU6/35aEXrEQ4ngBJPKKk/PKKCM=
+		evtjqBrCafPiGcZynquxkYxlqzQ=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,11 @@
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nBGIDupCgEMGlHiDR48b9tMr830=
+		aT/JQ+0IDri1e1xF5VyG00ceLJI=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -46,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LjYfr2HbBb/e7ltde2/o8B6t/Er3CuduMtr5v0biYQQ=
+			2i5Z3D85zN5OKToxL6H6n7DKoPWfV6Yz3BJINIT8JZs=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -74,7 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DqaA1jsWm0TqAt/Bjw9jW8iocPuq2KDLrCQYDAyTFA0=
+			cfOAxqkX6NGpY8lPMqvh3MfrSOIUzzpX23/Rk6mWmio=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
 			</data>
 		</dict>
 	</dict>
