@@ -21,7 +21,7 @@ By following this guide, you will be able to:
 ## SDK Information
 
 - **Repository URL:** https://github.com/payu-intrepos/WPPSDK
-- **SDK Version:** `1.0.0-alpha.1`
+- **SDK Version:** `1.0.0-alpha.2`
 
 ## Option 1: Add via Xcode UI (Recommended)
 
@@ -33,7 +33,7 @@ By following this guide, you will be able to:
    ```
 4. Select **Exact Version** and enter:
    ```
-   1.0.0-alpha.1
+   1.0.0-alpha.2
    ```
 5. Choose your app target and click **Add Package**.
 
@@ -43,7 +43,7 @@ By following this guide, you will be able to:
 dependencies: [
     .package(
         url: "https://github.com/payu-intrepos/WPPSDK",
-        exact: "1.0.0-alpha.1"
+        exact: "1.0.0-alpha.2"
     )
 ]
 ```
