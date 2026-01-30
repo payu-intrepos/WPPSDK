@@ -6,15 +6,15 @@ import PackageDescription
 let VERSION_CRASH_REPORTER: PackageDescription.Version = "4.0.3"
 
 let package = Package(
-    name: "WibmoPPKit",
+    name: "Wibmo-PPKit",
     platforms: [
         .iOS(.v15)
     ],
     
     products: [
         .library(
-            name: "WPPKit",
-            targets: ["WPPKitTarget"]
+            name: "Wibmo-PPKit",
+            targets: ["WPPKit"]
         ),
     ],
     
@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(name: "WPPSDK", path: "./Frameworks/WPPSDK.xcframework"),
         .binaryTarget(name: "MeaPushProvisioning", path: "./Frameworks/MeaPushProvisioning.xcframework"),
         .target(
-            name: "WPPKitTarget",
+            name: "WPPKit",
             dependencies: [
                 "MeaPushProvisioning",
                 .product(name: "PayUIndia-CrashReporter", package: "PayUCrashReporter-iOS"),
