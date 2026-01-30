@@ -10,20 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc @_hasMissingDesignatedInitializers @objcMembers final public class WPPTokenInfo : ObjectiveC.NSObject {
-  @objc final public let primaryAccountIdentifier: Swift.String
-  @objc final public let deviceAccountIdentifier: Swift.String?
-  @objc final public let deviceAccountNumberSuffix: Swift.String?
-  @objc deinit
-}
-@objc @objcMembers final public class WPPEncryptedCardData : ObjectiveC.NSObject {
-  @objc final public let encryptedCardData: Swift.String
-  @objc final public let publicKeyFingerprint: Swift.String
-  @objc final public let encryptedKey: Swift.String
-  @objc final public let initialVector: Swift.String
-  @objc public init(encryptedCardData: Swift.String, publicKeyFingerprint: Swift.String, encryptedKey: Swift.String, initialVector: Swift.String)
-  @objc deinit
-}
 @_inheritsConvenienceInitializers @objc final public class WibmoPushProvisionSDK : ObjectiveC.NSObject {
   public static var canAddPaymentPass: Swift.Bool {
     get
@@ -75,6 +61,20 @@ public enum WPPError : Swift.Error, Foundation.LocalizedError {
   public var hashValue: Swift.Int {
     get
   }
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers final public class WPPTokenInfo : ObjectiveC.NSObject {
+  @objc final public let primaryAccountIdentifier: Swift.String
+  @objc final public let deviceAccountIdentifier: Swift.String?
+  @objc final public let deviceAccountNumberSuffix: Swift.String?
+  @objc deinit
+}
+@objc @objcMembers final public class WPPEncryptedCardData : ObjectiveC.NSObject {
+  @objc final public let encryptedCardData: Swift.String
+  @objc final public let publicKeyFingerprint: Swift.String
+  @objc final public let encryptedKey: Swift.String
+  @objc final public let initialVector: Swift.String
+  @objc public init(encryptedCardData: Swift.String, publicKeyFingerprint: Swift.String, encryptedKey: Swift.String, initialVector: Swift.String)
+  @objc deinit
 }
 extension WPPSDK.WPPError : Swift.Equatable {}
 extension WPPSDK.WPPError : Swift.Hashable {}
