@@ -14,7 +14,7 @@ let package = Package(
     products: [
         .library(
             name: "Wibmo-PPKit",
-            targets: ["WPPKit"]
+            targets: ["WPPSDK"]
         ),
     ],
     
@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(name: "WPPSDK", path: "./Frameworks/WPPSDK.xcframework"),
         .binaryTarget(name: "MeaPushProvisioning", path: "./Frameworks/MeaPushProvisioning.xcframework"),
         .target(
-            name: "WPPKit",
+            name: "WPPSDK",
             dependencies: [
                 "MeaPushProvisioning",
                 .product(name: "PayUIndia-CrashReporter", package: "PayUCrashReporter-iOS"),
