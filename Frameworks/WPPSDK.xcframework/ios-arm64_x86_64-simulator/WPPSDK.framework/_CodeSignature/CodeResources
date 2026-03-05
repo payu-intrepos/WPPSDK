@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/WPPSDK-Swift.h</key>
 		<data>
-		iAEhzm1nK3Zi2Itp6iWLaqXbPgs=
+		J/psjiaa8nL1hbrJDwCYs1VaPCA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		l/Y40F4Ff9t2vMaRtdl68YiA1d0=
+		WORMNZDsUDXKqYnN/B1/jHQBP8E=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eD9KM97QL0zV3Wf+oE63cTnUICY=
+		NGLl6gW0xELYfDZX3/HoP8XEhKA=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2X98rAC8+b4s6Muwi/MgLJALqMY=
+		BtRBSNErPUmCSGuUpBcylh4YeL0=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DMsVwTLDmULKMcTaqdh8FOlPF7M=
+		/h2hIZptdswDCVSrSh6nSCEhgiM=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2X98rAC8+b4s6Muwi/MgLJALqMY=
+		BtRBSNErPUmCSGuUpBcylh4YeL0=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		n/AaxSd2DAw72jWTOGumU1PUHL4=
+		S17QD6VGui1sG2NG8/Oz4jdqNo8=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eD9KM97QL0zV3Wf+oE63cTnUICY=
+		NGLl6gW0xELYfDZX3/HoP8XEhKA=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yrSSHIGe4vd8wgysxYaw8MzWkBs=
+		bMms4KNJ4RbHadgycRbGaPo9M/g=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		tZxlMp3Jp/hmFjdC21qzVqB+8vU=
+		1Qb/vkK1BUUJDqVRMcDB4sBVEHQ=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yrSSHIGe4vd8wgysxYaw8MzWkBs=
+		bMms4KNJ4RbHadgycRbGaPo9M/g=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M1GtkhtkbfTyBOCkWlIXoUQbZuk=
+		QjQDJ47ShD+Sltt2o6+b07xhkNA=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -63,77 +63,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rclDHD7EFq4DOid+cg5LY0Q7JbKUOWsMQ3tL5VHd7+o=
+			Np1Lsv9cw6XROA5JkhDyEgTa8Oli7kCAExpgDibPz+E=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T28RD/hHsbNBjQCcvu+mpc8vERBp1S3MwF2DPtlXvvQ=
+			yFCYpLSLzwXBGYXYEL6HrRW/CuMWKkb2UqJzRmaDpAo=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bFOwvN+xl78CZaiivyRqmZRRF0sG9FTY0nCQGJ+cX5A=
+			i+ZnEHujBl1Hnj6TnqgF5ufUVVTivkDSJfyJBf+SCbg=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hkk20pJiVRUd61VIycU5ok8mxsDY8RHVxWJSx1xPlSg=
+			miGf92cZ6ckqOLxSLYlM9q9J3OFXGFCChrI6JRji1wA=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bFOwvN+xl78CZaiivyRqmZRRF0sG9FTY0nCQGJ+cX5A=
+			i+ZnEHujBl1Hnj6TnqgF5ufUVVTivkDSJfyJBf+SCbg=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XiwbBlmjLZnGSVJflIJtptd4CsJY3t0tJBdDDB6P80M=
+			un/Lz17rp+pXFbqiNuQpOlutxY3kVXIbXbFLZg5c8nY=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T28RD/hHsbNBjQCcvu+mpc8vERBp1S3MwF2DPtlXvvQ=
+			yFCYpLSLzwXBGYXYEL6HrRW/CuMWKkb2UqJzRmaDpAo=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ArYgBr9TwQayAuAyFL7hT9y+JxB2rvk2afCJ6GnBxTs=
+			CKmZIz8BpPUEyG7DP5GiUZDNsadibJcEOfDjRf8NYx4=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWzQLGtJig/9PCtOBVK8n9S6EACUhgmTOY3rUtHWYfs=
+			dISEsK0lAgWFiEQ5yl5IlsF7qlvosI2iFAzuVv3erkE=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ArYgBr9TwQayAuAyFL7hT9y+JxB2rvk2afCJ6GnBxTs=
+			CKmZIz8BpPUEyG7DP5GiUZDNsadibJcEOfDjRf8NYx4=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			24HArP4jyJNZaEqVaVz/JpIX3tJfNbERQT+xfCv+0Gk=
+			CL4qDdmLCqJst02QDazoFjvarY6uXas+gm3GcGJaNSE=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

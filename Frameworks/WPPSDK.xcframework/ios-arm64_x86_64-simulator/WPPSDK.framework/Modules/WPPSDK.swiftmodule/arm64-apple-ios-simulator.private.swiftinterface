@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WPPSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import Foundation
 import MeaPushProvisioning
 import PassKit
@@ -61,7 +61,7 @@ public enum WPPError : Swift.Error, Foundation.LocalizedError {
   public static func canAddCard(primaryAccountIdentifier: Swift.String) -> Swift.Bool
   public static func configSDK(with config: [Swift.String : Any])
   #if compiler(>=5.3) && $NonescapableTypes
-  public static func checkWallet(cardData: [Swift.String : Any], completion: @escaping (Swift.Result<[WPPSDK.WPPTokenInfo], any Swift.Error>) -> Swift.Void)
+  public static func checkWallet(cardData: [Swift.String : Any], completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func startProvisioning(encryptedData: WPPSDK.WPPEncryptedCardData, completion: @escaping (Swift.Result<WPPSDK.WPPInitResponse, any Swift.Error>) -> Swift.Void)
@@ -80,11 +80,5 @@ public enum WPPError : Swift.Error, Foundation.LocalizedError {
   @objc deinit
 }
 public typealias WibmoPushProvisioning = WPPSDK.WibmoPushProvisionSDK
-@objc @_hasMissingDesignatedInitializers @objcMembers final public class WPPTokenInfo : ObjectiveC.NSObject {
-  @objc final public let primaryAccountIdentifier: Swift.String
-  @objc final public let deviceAccountIdentifier: Swift.String?
-  @objc final public let deviceAccountNumberSuffix: Swift.String?
-  @objc deinit
-}
 extension WPPSDK.WPPError : Swift.Equatable {}
 extension WPPSDK.WPPError : Swift.Hashable {}
