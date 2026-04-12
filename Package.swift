@@ -4,6 +4,7 @@
 import PackageDescription
 
 let VERSION_CRASH_REPORTER: PackageDescription.Version = "4.0.3"
+let VERSION_ANALYTICS_KIT: PackageDescription.Version = "4.0.2"
 
 let package = Package(
     name: "WPPSDK",
@@ -20,6 +21,8 @@ let package = Package(
     
     dependencies: [
         .package(url: "https://github.com/payu-intrepos/PayUCrashReporter-iOS.git", from: VERSION_CRASH_REPORTER),
+        .package(url: "https://github.com/payu-intrepos/PayUAnalytics-iOS.git", from: VERSION_ANALYTICS_KIT),
+
     ],
     
     targets: [
@@ -31,6 +34,7 @@ let package = Package(
                 "WPPSDK",
                 "WPPCoreSDK",
                 .product(name: "PayUIndia-CrashReporter", package: "PayUCrashReporter-iOS"),
+                .product(name: "PayUIndia-Analytics", package: "PayUAnalytics-iOS"),
             ],
             path: "Wrappers/WPPKitWrapper",
         )

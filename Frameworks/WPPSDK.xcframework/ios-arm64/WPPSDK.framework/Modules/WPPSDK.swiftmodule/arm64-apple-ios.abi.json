@@ -16,6 +16,33 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WPPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -419,6 +446,1193 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "WPPSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WPPCachedCard",
+        "printedName": "WPPCachedCard",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cardIdentifier",
+            "printedName": "cardIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)cardIdentifier",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC14cardIdentifierSSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)cardIdentifier",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC14cardIdentifierSSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayName",
+            "printedName": "displayName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)displayName",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC11displayNameSSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)displayName",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC11displayNameSSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastFourDigits",
+            "printedName": "lastFourDigits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)lastFourDigits",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC14lastFourDigitsSSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)lastFourDigits",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC14lastFourDigitsSSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardArtData",
+            "printedName": "cardArtData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)cardArtData",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC11cardArtData10Foundation0F0VSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)cardArtData",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC11cardArtData10Foundation0F0VSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenizationReceipt",
+            "printedName": "tokenizationReceipt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)tokenizationReceipt",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC19tokenizationReceiptSSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)tokenizationReceipt",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC19tokenizationReceiptSSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryAccountIdentifier",
+            "printedName": "primaryAccountIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)primaryAccountIdentifier",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC24primaryAccountIdentifierSSSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)primaryAccountIdentifier",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC24primaryAccountIdentifierSSSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardholderName",
+            "printedName": "cardholderName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)cardholderName",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC14cardholderNameSSSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)cardholderName",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC14cardholderNameSSSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentNetwork",
+            "printedName": "paymentNetwork",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)paymentNetwork",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC14paymentNetworkSSSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)paymentNetwork",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC14paymentNetworkSSSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiryTimestamp",
+            "printedName": "expiryTimestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)expiryTimestamp",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC15expiryTimestampSdvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)expiryTimestamp",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC15expiryTimestampSdvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "encryptedCardData",
+            "printedName": "encryptedCardData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)encryptedCardData",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC09encryptedC4Data10Foundation0E0VSgvp",
+            "moduleName": "WPPSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "Available",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)encryptedCardData",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC09encryptedC4Data10Foundation0E0VSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "meaEncryptedCardData",
+            "printedName": "meaEncryptedCardData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)meaEncryptedCardData",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC012meaEncryptedC4Data10Foundation0F0VSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)meaEncryptedCardData",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC012meaEncryptedC4Data10Foundation0F0VSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isExpired",
+            "printedName": "isExpired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(py)isExpired",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC9isExpiredSbvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)isExpired",
+                "mangledName": "$s6WPPSDK13WPPCachedCardC9isExpiredSbvg",
+                "moduleName": "WPPSDK",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cardIdentifier:displayName:response:meaEncryptedCardData:cardArtData:validityDuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPCachedCard",
+                "printedName": "WPPSDK.WPPCachedCard",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPInitResponse",
+                "printedName": "WPPSDK.WPPInitResponse",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPInitResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WPPSDK.WPPMeaEncryptedCardData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPMeaEncryptedCardData",
+                    "printedName": "WPPSDK.WPPMeaEncryptedCardData",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)initWithCardIdentifier:displayName:response:meaEncryptedCardData:cardArtData:validityDuration:",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC14cardIdentifier11displayName8response012meaEncryptedC4Data0d3ArtK016validityDurationACSS_SSAA15WPPInitResponseCAA06WPPMeajcK0CSg10Foundation0K0VSgSdtcfc",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cardIdentifier:displayName:response:encryptedCardData:cardArtData:validityDuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPCachedCard",
+                "printedName": "WPPSDK.WPPCachedCard",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPInitResponse",
+                "printedName": "WPPSDK.WPPInitResponse",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPInitResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WPPSDK.WPPEncryptedCardData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPEncryptedCardData",
+                    "printedName": "WPPSDK.WPPEncryptedCardData",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPEncryptedCardData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)initWithCardIdentifier:displayName:response:encryptedCardData:cardArtData:validityDuration:",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC14cardIdentifier11displayName8response09encryptedC4Data0d3ArtJ016validityDurationACSS_SSAA15WPPInitResponseCAA012WPPEncryptedcJ0CSg10Foundation0J0VSgSdtcfc",
+            "moduleName": "WPPSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cardIdentifier:displayName:lastFourDigits:cardArtData:tokenizationReceipt:primaryAccountIdentifier:cardholderName:paymentNetwork:expiryTimestamp:meaEncryptedCardData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPCachedCard",
+                "printedName": "WPPSDK.WPPCachedCard",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)initWithCardIdentifier:displayName:lastFourDigits:cardArtData:tokenizationReceipt:primaryAccountIdentifier:cardholderName:paymentNetwork:expiryTimestamp:meaEncryptedCardData:",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC14cardIdentifier11displayName14lastFourDigits0D7ArtData19tokenizationReceipt014primaryAccountE0010cardholderG014paymentNetwork15expiryTimestamp012meaEncryptedcL0ACSS_S2S10Foundation0L0VSgS2SSgA2RSdAQtcfc",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPCachedCard",
+                "printedName": "WPPSDK.WPPCachedCard",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6WPPSDK13WPPCachedCardC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK13WPPCachedCardC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6WPPSDK13WPPCachedCardC6encode2toys7Encoder_p_tKF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPCachedCard",
+                "printedName": "WPPSDK.WPPCachedCard",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard(im)init",
+            "mangledName": "$s6WPPSDK13WPPCachedCardCACycfc",
+            "moduleName": "WPPSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard",
+        "mangledName": "$s6WPPSDK13WPPCachedCardC",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "WPPEncryptedCardData",
         "printedName": "WPPEncryptedCardData",
@@ -670,6 +1884,77 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Function",
+            "name": "toData",
+            "printedName": "toData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPEncryptedCardData(im)toData",
+            "mangledName": "$s6WPPSDK20WPPEncryptedCardDataC02toD010Foundation0D0VSgyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromData",
+            "printedName": "fromData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WPPSDK.WPPEncryptedCardData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPEncryptedCardData",
+                    "printedName": "WPPSDK.WPPEncryptedCardData",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPEncryptedCardData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPEncryptedCardData(cm)fromData:",
+            "mangledName": "$s6WPPSDK20WPPEncryptedCardDataC04fromD0yACSg10Foundation0D0VFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -694,6 +1979,60 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPEncryptedCardData",
+                "printedName": "WPPSDK.WPPEncryptedCardData",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPEncryptedCardData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6WPPSDK20WPPEncryptedCardDataC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6WPPSDK20WPPEncryptedCardDataC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "WPPSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK20WPPEncryptedCardDataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6WPPSDK20WPPEncryptedCardDataC6encode2toys7Encoder_p_tKF",
+            "moduleName": "WPPSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -711,6 +2050,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -1317,6 +2670,1834 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "WPPExtensionDataManager",
+        "printedName": "WPPExtensionDataManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appGroupId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPExtensionDataManager",
+                "printedName": "WPPSDK.WPPExtensionDataManager",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)initWithAppGroupId:",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC10appGroupIdACSS_tcfc",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "cacheCard",
+            "printedName": "cacheCard(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPCachedCard",
+                "printedName": "WPPSDK.WPPCachedCard",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)cacheCard:error:",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC9cacheCardyyAA09WPPCachedF0CKF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCard",
+            "printedName": "removeCard(cardIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)removeCardWithCardIdentifier:",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC10removeCard14cardIdentifierySS_tF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCard",
+            "printedName": "removeCard(lastFourDigits:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)removeCardWithLastFourDigits:",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC10removeCard14lastFourDigitsySS_tF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAllCards",
+            "printedName": "clearAllCards()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)clearAllCards",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC13clearAllCardsyyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllCachedCards",
+            "printedName": "getAllCachedCards()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WPPSDK.WPPCachedCard]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPCachedCard",
+                    "printedName": "WPPSDK.WPPCachedCard",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)getAllCachedCards",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC17getAllCachedCardsSayAA13WPPCachedCardCGyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAvailableCards",
+            "printedName": "getAvailableCards()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WPPSDK.WPPCachedCard]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPCachedCard",
+                    "printedName": "WPPSDK.WPPCachedCard",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)getAvailableCards",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC17getAvailableCardsSayAA13WPPCachedCardCGyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProvisionableCards",
+            "printedName": "getProvisionableCards()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WPPSDK.WPPCachedCard]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPCachedCard",
+                    "printedName": "WPPSDK.WPPCachedCard",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)getProvisionableCards",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC21getProvisionableCardsSayAA13WPPCachedCardCGyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCard",
+            "printedName": "getCard(cardIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WPPSDK.WPPCachedCard?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPCachedCard",
+                    "printedName": "WPPSDK.WPPCachedCard",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)getCardWithCardIdentifier:",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC7getCard14cardIdentifierAA09WPPCachedF0CSgSS_tF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanupExpiredCards",
+            "printedName": "cleanupExpiredCards()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)cleanupExpiredCards",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC19cleanupExpiredCardsyyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPExtensionDataManager",
+                "printedName": "WPPSDK.WPPExtensionDataManager",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager(im)init",
+            "mangledName": "$s6WPPSDK23WPPExtensionDataManagerCACycfc",
+            "moduleName": "WPPSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionDataManager",
+        "mangledName": "$s6WPPSDK23WPPExtensionDataManagerC",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "WPPSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MeaPushProvisioning",
+        "printedName": "MeaPushProvisioning",
+        "declKind": "Import",
+        "moduleName": "WPPSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WPPExtensionHelper",
+        "printedName": "WPPExtensionHelper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPExtensionHelper",
+                "printedName": "WPPSDK.WPPExtensionHelper",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionHelper"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC6sharedACvpZ",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC6sharedACvpZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPExtensionHelper",
+                    "printedName": "WPPSDK.WPPExtensionHelper",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionHelper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6WPPSDK18WPPExtensionHelperC6sharedACvgZ",
+                "mangledName": "$s6WPPSDK18WPPExtensionHelperC6sharedACvgZ",
+                "moduleName": "WPPSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(configFileName:appGroupId:debugLogging:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionHelper(im)configureWithConfigFileName:appGroupId:debugLogging:",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC9configure14configFileName10appGroupId12debugLoggingySS_SSSbtF",
+            "moduleName": "WPPSDK",
+            "objc_name": "configureWithConfigFileName:appGroupId:debugLogging:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExtensionStatus",
+            "printedName": "getExtensionStatus(requiresAuthentication:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PKIssuerProvisioningExtensionStatus",
+                "printedName": "PassKit.PKIssuerProvisioningExtensionStatus",
+                "usr": "c:objc(cs)PKIssuerProvisioningExtensionStatus"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionHelper(im)getExtensionStatusWithRequiresAuthentication:",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC18getExtensionStatus22requiresAuthenticationSo020PKIssuerProvisioningeF0CSb_tF",
+            "moduleName": "WPPSDK",
+            "objc_name": "getExtensionStatusWithRequiresAuthentication:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProvisionableCards",
+            "printedName": "getProvisionableCards()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WPPSDK.WPPCachedCard]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPCachedCard",
+                    "printedName": "WPPSDK.WPPCachedCard",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC21getProvisionableCardsSayAA13WPPCachedCardCGyF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC21getProvisionableCardsSayAA13WPPCachedCardCGyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCard",
+            "printedName": "getCard(identifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WPPSDK.WPPCachedCard?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPCachedCard",
+                    "printedName": "WPPSDK.WPPCachedCard",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC7getCard10identifierAA09WPPCachedE0CSgSS_tF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC7getCard10identifierAA09WPPCachedE0CSgSS_tF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeTokenization",
+            "printedName": "initializeTokenization(for:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPCachedCard",
+                "printedName": "WPPSDK.WPPCachedCard",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassKit.PKAddPaymentPassRequestConfiguration?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(PassKit.PKAddPaymentPassRequestConfiguration?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "PassKit.PKAddPaymentPassRequestConfiguration?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PKAddPaymentPassRequestConfiguration",
+                            "printedName": "PassKit.PKAddPaymentPassRequestConfiguration",
+                            "usr": "c:objc(cs)PKAddPaymentPassRequestConfiguration"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC22initializeTokenization3for10completionyAA13WPPCachedCardC_ySo36PKAddPaymentPassRequestConfigurationCSg_SSSgtctF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC22initializeTokenization3for10completionyAA13WPPCachedCardC_ySo36PKAddPaymentPassRequestConfigurationCSg_SSSgtctF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "completeTokenization",
+            "printedName": "completeTokenization(tokenizationReceipt:certificates:nonce:nonceSignature:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassKit.PKAddPaymentPassRequest?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PassKit.PKAddPaymentPassRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PKAddPaymentPassRequest",
+                        "printedName": "PassKit.PKAddPaymentPassRequest",
+                        "usr": "c:objc(cs)PKAddPaymentPassRequest"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC20completeTokenization19tokenizationReceipt12certificates5nonce0I9Signature10completionySS_Say10Foundation4DataVGA2LySo23PKAddPaymentPassRequestCSgctF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC20completeTokenization19tokenizationReceipt12certificates5nonce0I9Signature10completionySS_Say10Foundation4DataVGA2LySo23PKAddPaymentPassRequestCSgctF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canAddToiPhone",
+            "printedName": "canAddToiPhone(primaryAccountIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC14canAddToiPhone24primaryAccountIdentifierSbSSSg_tF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC14canAddToiPhone24primaryAccountIdentifierSbSSSg_tF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canAddToWatch",
+            "printedName": "canAddToWatch(primaryAccountIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC13canAddToWatch24primaryAccountIdentifierSbSSSg_tF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC13canAddToWatch24primaryAccountIdentifierSbSSSg_tF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "existsIniPhone",
+            "printedName": "existsIniPhone(primaryAccountIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC14existsIniPhone24primaryAccountIdentifierSbSS_tF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC14existsIniPhone24primaryAccountIdentifierSbSS_tF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "existsInWatch",
+            "printedName": "existsInWatch(primaryAccountIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC13existsInWatch24primaryAccountIdentifierSbSS_tF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC13existsInWatch24primaryAccountIdentifierSbSS_tF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createCardArt",
+            "printedName": "createCardArt(from:defaultColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGImage",
+                "printedName": "CoreGraphics.CGImage",
+                "usr": "c:@T@CGImageRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK18WPPExtensionHelperC13createCardArt4from12defaultColorSo10CGImageRefa10Foundation4DataVSg_So7UIColorCtF",
+            "mangledName": "$s6WPPSDK18WPPExtensionHelperC13createCardArt4from12defaultColorSo10CGImageRefa10Foundation4DataVSg_So7UIColorCtF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionHelper",
+        "mangledName": "$s6WPPSDK18WPPExtensionHelperC",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WPPPassEntryBuilder",
+        "printedName": "WPPPassEntryBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(card:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPPassEntryBuilder",
+                "printedName": "WPPSDK.WPPPassEntryBuilder",
+                "usr": "s:6WPPSDK19WPPPassEntryBuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPCachedCard",
+                "printedName": "WPPSDK.WPPCachedCard",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPCachedCard"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6WPPSDK19WPPPassEntryBuilderC4cardAcA13WPPCachedCardC_tcfc",
+            "mangledName": "$s6WPPSDK19WPPPassEntryBuilderC4cardAcA13WPPCachedCardC_tcfc",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setConfiguration",
+            "printedName": "setConfiguration(_:receipt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicSelf",
+                "printedName": "Self"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassKit.PKAddPaymentPassRequestConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKAddPaymentPassRequestConfiguration",
+                    "printedName": "PassKit.PKAddPaymentPassRequestConfiguration",
+                    "usr": "c:objc(cs)PKAddPaymentPassRequestConfiguration"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK19WPPPassEntryBuilderC16setConfiguration_7receiptACXDSo023PKAddPaymentPassRequestF0CSg_SSSgtF",
+            "mangledName": "$s6WPPSDK19WPPPassEntryBuilderC16setConfiguration_7receiptACXDSo023PKAddPaymentPassRequestF0CSg_SSSgtF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "receipt",
+            "printedName": "receipt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6WPPSDK19WPPPassEntryBuilderC7receiptSSSgvp",
+            "mangledName": "$s6WPPSDK19WPPPassEntryBuilderC7receiptSSSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6WPPSDK19WPPPassEntryBuilderC7receiptSSSgvg",
+                "mangledName": "$s6WPPSDK19WPPPassEntryBuilderC7receiptSSSgvg",
+                "moduleName": "WPPSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassKit.PKIssuerProvisioningExtensionPaymentPassEntry?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKIssuerProvisioningExtensionPaymentPassEntry",
+                    "printedName": "PassKit.PKIssuerProvisioningExtensionPaymentPassEntry",
+                    "usr": "c:objc(cs)PKIssuerProvisioningExtensionPaymentPassEntry"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK19WPPPassEntryBuilderC5buildSo040PKIssuerProvisioningExtensionPaymentPassC0CSgyF",
+            "mangledName": "$s6WPPSDK19WPPPassEntryBuilderC5buildSo040PKIssuerProvisioningExtensionPaymentPassC0CSgyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6WPPSDK19WPPPassEntryBuilderC",
+        "mangledName": "$s6WPPSDK19WPPPassEntryBuilderC",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "WPPSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WPPExtensionTokenizationResult",
+        "printedName": "WPPExtensionTokenizationResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "addPaymentPassRequestConfiguration",
+            "printedName": "addPaymentPassRequestConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassKit.PKAddPaymentPassRequestConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKAddPaymentPassRequestConfiguration",
+                    "printedName": "PassKit.PKAddPaymentPassRequestConfiguration",
+                    "usr": "c:objc(cs)PKAddPaymentPassRequestConfiguration"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC34addPaymentPassRequestConfigurationSo05PKAddfghI0CSgvp",
+            "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC34addPaymentPassRequestConfigurationSo05PKAddfghI0CSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PassKit.PKAddPaymentPassRequestConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PKAddPaymentPassRequestConfiguration",
+                        "printedName": "PassKit.PKAddPaymentPassRequestConfiguration",
+                        "usr": "c:objc(cs)PKAddPaymentPassRequestConfiguration"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC34addPaymentPassRequestConfigurationSo05PKAddfghI0CSgvg",
+                "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC34addPaymentPassRequestConfigurationSo05PKAddfghI0CSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenizationReceipt",
+            "printedName": "tokenizationReceipt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC19tokenizationReceiptSSvp",
+            "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC19tokenizationReceiptSSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC19tokenizationReceiptSSvg",
+                "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC19tokenizationReceiptSSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryAccountIdentifier",
+            "printedName": "primaryAccountIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC24primaryAccountIdentifierSSSgvp",
+            "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC24primaryAccountIdentifierSSSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC24primaryAccountIdentifierSSSgvg",
+                "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC24primaryAccountIdentifierSSSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryAccountSuffix",
+            "printedName": "primaryAccountSuffix",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC20primaryAccountSuffixSSvp",
+            "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC20primaryAccountSuffixSSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC20primaryAccountSuffixSSvg",
+                "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC20primaryAccountSuffixSSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardholderName",
+            "printedName": "cardholderName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC14cardholderNameSSSgvp",
+            "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC14cardholderNameSSSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC14cardholderNameSSSgvg",
+                "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC14cardholderNameSSSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentNetwork",
+            "printedName": "paymentNetwork",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassKit.PKPaymentNetwork?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKPaymentNetwork",
+                    "printedName": "PassKit.PKPaymentNetwork",
+                    "usr": "c:@T@PKPaymentNetwork"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC14paymentNetworkSo09PKPaymentF0aSgvp",
+            "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC14paymentNetworkSo09PKPaymentF0aSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PassKit.PKPaymentNetwork?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PKPaymentNetwork",
+                        "printedName": "PassKit.PKPaymentNetwork",
+                        "usr": "c:@T@PKPaymentNetwork"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC14paymentNetworkSo09PKPaymentF0aSgvg",
+                "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC14paymentNetworkSo09PKPaymentF0aSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(addPaymentPassRequestConfiguration:tokenizationReceipt:primaryAccountIdentifier:primaryAccountSuffix:cardholderName:paymentNetwork:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPExtensionTokenizationResult",
+                "printedName": "WPPSDK.WPPExtensionTokenizationResult",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionTokenizationResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassKit.PKAddPaymentPassRequestConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKAddPaymentPassRequestConfiguration",
+                    "printedName": "PassKit.PKAddPaymentPassRequestConfiguration",
+                    "usr": "c:objc(cs)PKAddPaymentPassRequestConfiguration"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PassKit.PKPaymentNetwork?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKPaymentNetwork",
+                    "printedName": "PassKit.PKPaymentNetwork",
+                    "usr": "c:@T@PKPaymentNetwork"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6WPPSDK30WPPExtensionTokenizationResultC34addPaymentPassRequestConfiguration19tokenizationReceipt24primaryAccountIdentifier0lM6Suffix14cardholderName14paymentNetworkACSo05PKAddfghI0CSg_S2SSgSSAMSo09PKPaymentS0aSgtcfc",
+            "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC34addPaymentPassRequestConfiguration19tokenizationReceipt24primaryAccountIdentifier0lM6Suffix14cardholderName14paymentNetworkACSo05PKAddfghI0CSg_S2SSgSSAMSo09PKPaymentS0aSgtcfc",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPExtensionTokenizationResult",
+                "printedName": "WPPSDK.WPPExtensionTokenizationResult",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionTokenizationResult"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionTokenizationResult(im)init",
+            "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultCACycfc",
+            "moduleName": "WPPSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionTokenizationResult",
+        "mangledName": "$s6WPPSDK30WPPExtensionTokenizationResultC",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "PassKit",
         "printedName": "PassKit",
@@ -1384,6 +4565,73 @@
                 "declKind": "Accessor",
                 "usr": "c:@M@WPPSDK@objc(cs)WPPInitResponse(im)requestConfiguration",
                 "mangledName": "$s6WPPSDK15WPPInitResponseC20requestConfigurationSo023PKAddPaymentPassRequestE0CSgvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokenizationReceipt",
+            "printedName": "tokenizationReceipt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPInitResponse(py)tokenizationReceipt",
+            "mangledName": "$s6WPPSDK15WPPInitResponseC19tokenizationReceiptSSSgvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPInitResponse(im)tokenizationReceipt",
+                "mangledName": "$s6WPPSDK15WPPInitResponseC19tokenizationReceiptSSSgvg",
                 "moduleName": "WPPSDK",
                 "implicit": true,
                 "declAttributes": [
@@ -1827,6 +5075,519 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "WPPMeaEncryptedCardData",
+        "printedName": "WPPMeaEncryptedCardData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "encryptedData",
+            "printedName": "encryptedData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(py)encryptedData",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC09encryptedE0SSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(im)encryptedData",
+                "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC09encryptedE0SSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "publicKeyFingerprint",
+            "printedName": "publicKeyFingerprint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(py)publicKeyFingerprint",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC20publicKeyFingerprintSSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(im)publicKeyFingerprint",
+                "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC20publicKeyFingerprintSSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "encryptedKey",
+            "printedName": "encryptedKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(py)encryptedKey",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC12encryptedKeySSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(im)encryptedKey",
+                "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC12encryptedKeySSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "iv",
+            "printedName": "iv",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(py)iv",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC2ivSSvp",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(im)iv",
+                "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC2ivSSvg",
+                "moduleName": "WPPSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encryptedData:publicKeyFingerprint:encryptedKey:iv:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPMeaEncryptedCardData",
+                "printedName": "WPPSDK.WPPMeaEncryptedCardData",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(im)initWithEncryptedData:publicKeyFingerprint:encryptedKey:iv:",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC09encryptedE020publicKeyFingerprint0fH02ivACSS_S3Stcfc",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "toData",
+            "printedName": "toData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(im)toData",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC02toE010Foundation0E0VSgyF",
+            "moduleName": "WPPSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromData",
+            "printedName": "fromData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WPPSDK.WPPMeaEncryptedCardData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WPPMeaEncryptedCardData",
+                    "printedName": "WPPSDK.WPPMeaEncryptedCardData",
+                    "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(cm)fromData:",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC04fromE0yACSg10Foundation0E0VFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPMeaEncryptedCardData",
+                "printedName": "WPPSDK.WPPMeaEncryptedCardData",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData(im)init",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataCACycfc",
+            "moduleName": "WPPSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WPPMeaEncryptedCardData",
+                "printedName": "WPPSDK.WPPMeaEncryptedCardData",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6WPPSDK23WPPMeaEncryptedCardDataC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "WPPSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK23WPPMeaEncryptedCardDataC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC6encode2toys7Encoder_p_tKF",
+            "moduleName": "WPPSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData",
+        "mangledName": "$s6WPPSDK23WPPMeaEncryptedCardDataC",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WPPSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -1918,6 +5679,36 @@
             "declAttributes": [
               "Final",
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canAddCard",
+            "printedName": "canAddCard(primaryAccountSuffix:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC10canAddCard20primaryAccountSuffixSbSS_tFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC10canAddCard20primaryAccountSuffixSbSS_tFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2220,6 +6011,612 @@
           },
           {
             "kind": "Function",
+            "name": "configureForExtension",
+            "printedName": "configureForExtension(configFileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC21configureForExtension14configFileNameySS_tFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC21configureForExtension14configFileNameySS_tFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeTokenization",
+            "printedName": "initializeTokenization(encryptedData:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPEncryptedCardData",
+                "printedName": "WPPSDK.WPPEncryptedCardData",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPEncryptedCardData"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<WPPSDK.WPPExtensionTokenizationResult, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<WPPSDK.WPPExtensionTokenizationResult, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WPPExtensionTokenizationResult",
+                        "printedName": "WPPSDK.WPPExtensionTokenizationResult",
+                        "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionTokenizationResult"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC22initializeTokenization13encryptedData10completionyAA016WPPEncryptedCardI0C_ys6ResultOyAA012WPPExtensiongM0Cs5Error_pGctFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC22initializeTokenization13encryptedData10completionyAA016WPPEncryptedCardI0C_ys6ResultOyAA012WPPExtensiongM0Cs5Error_pGctFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "completeTokenization",
+            "printedName": "completeTokenization(tokenizationReceipt:certificates:nonce:nonceSignature:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PKAddPaymentPassRequest",
+                        "printedName": "PassKit.PKAddPaymentPassRequest",
+                        "usr": "c:objc(cs)PKAddPaymentPassRequest"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC20completeTokenization19tokenizationReceipt12certificates5nonce0K9Signature10completionySS_Say10Foundation4DataVGA2Lys6ResultOySo23PKAddPaymentPassRequestCs5Error_pGctFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC20completeTokenization19tokenizationReceipt12certificates5nonce0K9Signature10completionySS_Say10Foundation4DataVGA2Lys6ResultOySo23PKAddPaymentPassRequestCs5Error_pGctFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canAddToiPhone",
+            "printedName": "canAddToiPhone(primaryAccountIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC14canAddToiPhone24primaryAccountIdentifierSbSSSg_tFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC14canAddToiPhone24primaryAccountIdentifierSbSSSg_tFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canAddToWatch",
+            "printedName": "canAddToWatch(primaryAccountIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC13canAddToWatch24primaryAccountIdentifierSbSSSg_tFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC13canAddToWatch24primaryAccountIdentifierSbSSSg_tFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeTokenizationWithProcessedData",
+            "printedName": "initializeTokenizationWithProcessedData(processedData:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPMeaEncryptedCardData",
+                "printedName": "WPPSDK.WPPMeaEncryptedCardData",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPMeaEncryptedCardData"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<WPPSDK.WPPExtensionTokenizationResult, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<WPPSDK.WPPExtensionTokenizationResult, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WPPExtensionTokenizationResult",
+                        "printedName": "WPPSDK.WPPExtensionTokenizationResult",
+                        "usr": "c:@M@WPPSDK@objc(cs)WPPExtensionTokenizationResult"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC39initializeTokenizationWithProcessedData09processedJ010completionyAA019WPPMeaEncryptedCardJ0C_ys6ResultOyAA012WPPExtensiongP0Cs5Error_pGctFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC39initializeTokenizationWithProcessedData09processedJ010completionyAA019WPPMeaEncryptedCardJ0C_ys6ResultOyAA012WPPExtensiongP0Cs5Error_pGctFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cacheCardForExtension",
+            "printedName": "cacheCardForExtension(encryptedData:response:displayName:cardArtData:appGroupId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPEncryptedCardData",
+                "printedName": "WPPSDK.WPPEncryptedCardData",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPEncryptedCardData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WPPInitResponse",
+                "printedName": "WPPSDK.WPPInitResponse",
+                "usr": "c:@M@WPPSDK@objc(cs)WPPInitResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC21cacheCardForExtension13encryptedData8response11displayName07cardArtK010appGroupId10completionyAA012WPPEncryptedgK0C_AA15WPPInitResponseCSS10Foundation0K0VSgSSys6ResultOyyts5Error_pGctFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC21cacheCardForExtension13encryptedData8response11displayName07cardArtK010appGroupId10completionyAA012WPPEncryptedgK0C_AA15WPPInitResponseCSS10Foundation0K0VSgSSys6ResultOyyts5Error_pGctFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearExtensionCache",
+            "printedName": "clearExtensionCache(appGroupId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC19clearExtensionCache10appGroupIdySS_tFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC19clearExtensionCache10appGroupIdySS_tFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCachedCard",
+            "printedName": "removeCachedCard(lastFourDigits:appGroupId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC16removeCachedCard14lastFourDigits10appGroupIdySS_SStFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC16removeCachedCard14lastFourDigits10appGroupIdySS_SStFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCachedCardsCount",
+            "printedName": "getCachedCardsCount(appGroupId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC19getCachedCardsCount10appGroupIdSiSS_tFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC19getCachedCardsCount10appGroupIdSiSS_tFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getExtensionStatus",
+            "printedName": "getExtensionStatus(appGroupId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PKIssuerProvisioningExtensionStatus",
+                "printedName": "PassKit.PKIssuerProvisioningExtensionStatus",
+                "usr": "c:objc(cs)PKIssuerProvisioningExtensionStatus"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC18getExtensionStatus10appGroupIdSo020PKIssuerProvisioninggH0CSS_tFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC18getExtensionStatus10appGroupIdSo020PKIssuerProvisioninggH0CSS_tFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPassEntries",
+            "printedName": "getPassEntries(appGroupId:forRemote:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([(entry: PassKit.PKIssuerProvisioningExtensionPaymentPassEntry, receipt: Swift.String)]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(entry: PassKit.PKIssuerProvisioningExtensionPaymentPassEntry, receipt: Swift.String)]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(entry: PassKit.PKIssuerProvisioningExtensionPaymentPassEntry, receipt: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PKIssuerProvisioningExtensionPaymentPassEntry",
+                            "printedName": "PassKit.PKIssuerProvisioningExtensionPaymentPassEntry",
+                            "usr": "c:objc(cs)PKIssuerProvisioningExtensionPaymentPassEntry"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6WPPSDK21WibmoPushProvisionSDKC14getPassEntries10appGroupId9forRemote10completionySS_SbySaySo036PKIssuerProvisioningExtensionPaymentG5EntryC5entry_SS7receipttGctFZ",
+            "mangledName": "$s6WPPSDK21WibmoPushProvisionSDKC14getPassEntries10appGroupId9forRemote10completionySS_SbySaySo036PKIssuerProvisioningExtensionPaymentG5EntryC5entry_SS7receipttGctFZ",
+            "moduleName": "WPPSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "reset",
             "printedName": "reset()",
             "children": [
@@ -2399,32 +6796,375 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/akash.kumar\/Downloads\/WPPSDK-final 4\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 10,
+      "value": "\"WPP_SDK_\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 10,
+      "value": "\"WPP_EXT_\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 4,
+      "value": "\"ts\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 10,
+      "value": "\"sdk_name\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 21,
+      "value": "\"application_package\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 13,
+      "value": "\"logging_sdk\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 8,
+      "value": "\"txn_id\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 596,
+      "length": 16,
+      "value": "\"device_details\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 644,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 11,
+      "value": "\"event_key\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 13,
+      "value": "\"event_value\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 12,
+      "value": "\"event_time\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
+      "length": 21,
+      "value": "\"application_version\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 960,
+      "length": 16,
+      "value": "\"event_severity\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1008,
+      "length": 12,
+      "value": "\"event_type\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1142,
+      "length": 15,
+      "value": "\"Configuration\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 21,
+      "value": "\"ProvisioningSuccess\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 21,
+      "value": "\"ProvisioningFailure\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 11,
+      "value": "\"CacheCard\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1428,
+      "length": 14,
+      "value": "\"Tokenization\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 5,
+      "value": "\"Low\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 6,
+      "value": "\"High\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 650,
+      "length": 21,
+      "value": "\"\/wpp\/store\/eventLog\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 802,
+      "length": 8,
+      "value": "\"WPPSDK\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 94,
+      "value": "\"https:\/\/104c0f1a245c3e6f4eb95e0709cce8e5:bbb00e6411a5b7e118ada46b87932a72@sentry.wibmo.com\/6\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 12,
+      "value": "\"lll1444466\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1085,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2443,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Analytics\/WPPEventLogger.swift",
+      "kind": "Array",
+      "offset": 5507,
+      "length": 210,
+      "value": "[\"token\", \"encrypteddata\", \"carddata\", \"pan\", \"cvv\", \"expiry\", \"clientid\", \"customerid\", \"receipt\", \"tokenizationreceipt\", \"publickey\", \"privatekey\", \"activationdata\", \"ephemeral\"]"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 293,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash.kumar\/Downloads\/WPPSDK-final 4\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
       "kind": "StringLiteral",
       "offset": 336,
       "length": 5,
       "value": "\"UAT\""
     },
     {
-      "filePath": "\/Users\/akash.kumar\/Downloads\/WPPSDK-final 4\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Coordinator\/WPPCoordinatorImpl.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.kumar\/Downloads\/WPPSDK-final 4\/WPPSDK\/Network\/WPPBackendClient.swift",
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Network\/WPPBackendClient.swift",
       "kind": "StringLiteral",
       "offset": 159,
       "length": 33,
       "value": "\"https:\/\/itsp.pc.enstage-sas.com\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPCachedCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2968,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPCachedCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2973,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPCachedCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2978,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPCachedCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4146,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPCachedCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4151,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPCachedCard.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4156,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPExtensionDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1248,
+      "length": 18,
+      "value": "\"wpp_cached_cards\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPExtensionHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 628,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPExtensionHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 18,
+      "value": "\"wpp_cached_cards\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPExtensionHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1230,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPExtensionHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1895,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Downloads\/WPPSDK-final 5\/WPPSDK\/Public\/WPPSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2870,
+      "length": 11,
+      "value": "\"bv_config\""
     }
   ]
 }

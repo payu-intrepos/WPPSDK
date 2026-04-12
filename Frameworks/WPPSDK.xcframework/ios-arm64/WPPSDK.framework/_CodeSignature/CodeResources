@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/WPPSDK-Swift.h</key>
 		<data>
-		Q5vttgSbXN1/+4LOIVRI2h6aFSg=
+		my03BU8475AIDzqpj1lyPM7Bsg8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		k5TG6M3SOmtVxAwkEu++mlR8Ntw=
+		WwHyj8IHdtMotRPBZDPqyuEuh0c=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		NGLl6gW0xELYfDZX3/HoP8XEhKA=
+		D/5YEqbAyBFosUNkmYUphaF11s8=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fYnFSWRphDpmWM7ukzgQhmJOMWA=
+		nlYsHNHqU+VIEEIhGqGYzIfCtsY=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		37DXks/m8USp0qRNMH7uB+svxPQ=
+		wn3ZWpbBeLmTxHWOLhPVj/vpP7w=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fYnFSWRphDpmWM7ukzgQhmJOMWA=
+		nlYsHNHqU+VIEEIhGqGYzIfCtsY=
 		</data>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/NTKvmfuYd66Pv5NFwMmy1eRHro=
+		A1JiE+UCq56bSLY3V6HjkL1J/DA=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -43,42 +43,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n5LVTxkOIRUiBvgdXxGO1oM36G7cn48YeVLl3aO7uq8=
+			dYv6oimTqg7BiUrKf0U1iqMJN9IDJJh+pEP5AcyoZ9k=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFCYpLSLzwXBGYXYEL6HrRW/CuMWKkb2UqJzRmaDpAo=
+			FD8Zzb/mfiHQVVu0JUpewjltjh3KT8xPDt6IbmX3aVM=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I0JUEzdv020nAqMByf29dh96LdvpWNyhzKOpzWanNUM=
+			Eii7JDgnFKW5CnQY69uTWm8fe5HhNmTXKnr4NJEgG2E=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EBPhgupNLfcfGZ0tZM0VajUwILzEhJTR+wulF1ZBlNc=
+			dEtvPhB3GrYcF7TTMHv9gSc6n+We/Za4ziaDgK+iu+k=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I0JUEzdv020nAqMByf29dh96LdvpWNyhzKOpzWanNUM=
+			Eii7JDgnFKW5CnQY69uTWm8fe5HhNmTXKnr4NJEgG2E=
 			</data>
 		</dict>
 		<key>Modules/WPPSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nm6gjr3xd5FKJhqalNyZXf9jqSG8oaoDB4NP20FcYtA=
+			I8pJHjQuVpgm8gYwUHjE89+A6eAJlwjxC3ShHCDHQSc=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

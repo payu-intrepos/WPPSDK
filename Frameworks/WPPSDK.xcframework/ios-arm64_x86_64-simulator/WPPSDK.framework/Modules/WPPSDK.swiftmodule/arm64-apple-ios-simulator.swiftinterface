@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WPPSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import Foundation
 import MeaPushProvisioning
 import PassKit
@@ -17,13 +17,51 @@ import _SwiftConcurrencyShims
   @objc public init(certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data)
   @objc deinit
 }
-@objc @objcMembers final public class WPPEncryptedCardData : ObjectiveC.NSObject {
+@objc @objcMembers final public class WPPCachedCard : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let cardIdentifier: Swift.String
+  @objc final public let displayName: Swift.String
+  @objc final public let lastFourDigits: Swift.String
+  @objc final public let cardArtData: Foundation.Data?
+  @objc final public let tokenizationReceipt: Swift.String
+  @objc final public let primaryAccountIdentifier: Swift.String?
+  @objc final public let cardholderName: Swift.String?
+  @objc final public let paymentNetwork: Swift.String?
+  @objc final public let expiryTimestamp: Foundation.TimeInterval
+  @objc @available(*, deprecated, message: "Use meaEncryptedCardData instead")
+  final public let encryptedCardData: Foundation.Data?
+  @objc final public let meaEncryptedCardData: Foundation.Data?
+  @objc final public var isExpired: Swift.Bool {
+    @objc get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public init(cardIdentifier: Swift.String, displayName: Swift.String, response: WPPSDK.WPPInitResponse, meaEncryptedCardData: WPPSDK.WPPMeaEncryptedCardData?, cardArtData: Foundation.Data? = nil, validityDuration: Foundation.TimeInterval = 30 * 24 * 3600)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @available(*, deprecated, message: "Use init with meaEncryptedCardData instead")
+  public init(cardIdentifier: Swift.String, displayName: Swift.String, response: WPPSDK.WPPInitResponse, encryptedCardData: WPPSDK.WPPEncryptedCardData?, cardArtData: Foundation.Data? = nil, validityDuration: Foundation.TimeInterval = 30 * 24 * 3600)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public init(cardIdentifier: Swift.String, displayName: Swift.String, lastFourDigits: Swift.String, cardArtData: Foundation.Data?, tokenizationReceipt: Swift.String, primaryAccountIdentifier: Swift.String?, cardholderName: Swift.String?, paymentNetwork: Swift.String?, expiryTimestamp: Foundation.TimeInterval, meaEncryptedCardData: Foundation.Data? = nil)
+  #endif
+  required public init(from decoder: any Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
+}
+@objc @objcMembers final public class WPPEncryptedCardData : ObjectiveC.NSObject, Swift.Codable {
   @objc final public let encryptedData: Swift.String
   @objc final public let publicKeyFingerprint: Swift.String
   @objc final public let encryptedKey: Swift.String
   @objc final public let iv: Swift.String
   @objc public init(encryptedData: Swift.String, publicKeyFingerprint: Swift.String, encryptedKey: Swift.String, iv: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func toData() -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func fromData(_ data: Foundation.Data) -> WPPSDK.WPPEncryptedCardData?
+  #endif
   @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum WPPError : Swift.Error, Foundation.LocalizedError {
   case invalidState
@@ -45,8 +83,78 @@ public enum WPPError : Swift.Error, Foundation.LocalizedError {
     get
   }
 }
+@objc @objcMembers final public class WPPExtensionDataManager : ObjectiveC.NSObject {
+  @objc public init(appGroupId: Swift.String)
+  @objc final public func cacheCard(_ card: WPPSDK.WPPCachedCard) throws
+  @objc final public func removeCard(cardIdentifier: Swift.String)
+  @objc final public func removeCard(lastFourDigits: Swift.String)
+  @objc final public func clearAllCards()
+  @objc final public func getAllCachedCards() -> [WPPSDK.WPPCachedCard]
+  @objc final public func getAvailableCards() -> [WPPSDK.WPPCachedCard]
+  @objc final public func getProvisionableCards() -> [WPPSDK.WPPCachedCard]
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func getCard(cardIdentifier: Swift.String) -> WPPSDK.WPPCachedCard?
+  #endif
+  @objc final public func cleanupExpiredCards()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc final public class WPPExtensionHelper : ObjectiveC.NSObject {
+  public static let shared: WPPSDK.WPPExtensionHelper
+  @objc final public func configure(configFileName: Swift.String, appGroupId: Swift.String, debugLogging: Swift.Bool = false)
+  @objc final public func getExtensionStatus(requiresAuthentication: Swift.Bool = false) -> PassKit.PKIssuerProvisioningExtensionStatus
+  final public func getProvisionableCards() -> [WPPSDK.WPPCachedCard]
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func getCard(identifier: Swift.String) -> WPPSDK.WPPCachedCard?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func initializeTokenization(for card: WPPSDK.WPPCachedCard, completion: @escaping (PassKit.PKAddPaymentPassRequestConfiguration?, Swift.String?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func completeTokenization(tokenizationReceipt: Swift.String, certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data, completion: @escaping (PassKit.PKAddPaymentPassRequest?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func canAddToiPhone(primaryAccountIdentifier: Swift.String?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func canAddToWatch(primaryAccountIdentifier: Swift.String?) -> Swift.Bool
+  #endif
+  final public func existsIniPhone(primaryAccountIdentifier: Swift.String) -> Swift.Bool
+  final public func existsInWatch(primaryAccountIdentifier: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func createCardArt(from data: Foundation.Data?, defaultColor: UIKit.UIColor = .systemBlue) -> CoreGraphics.CGImage
+  #endif
+  @objc deinit
+}
+public class WPPPassEntryBuilder {
+  public init(card: WPPSDK.WPPCachedCard)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func setConfiguration(_ config: PassKit.PKAddPaymentPassRequestConfiguration?, receipt: Swift.String?) -> Self
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var receipt: Swift.String? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func build() -> PassKit.PKIssuerProvisioningExtensionPaymentPassEntry?
+  #endif
+  @objc deinit
+}
+@objc final public class WPPExtensionTokenizationResult : ObjectiveC.NSObject {
+  final public let addPaymentPassRequestConfiguration: PassKit.PKAddPaymentPassRequestConfiguration?
+  final public let tokenizationReceipt: Swift.String
+  final public let primaryAccountIdentifier: Swift.String?
+  final public let primaryAccountSuffix: Swift.String
+  final public let cardholderName: Swift.String?
+  final public let paymentNetwork: PassKit.PKPaymentNetwork?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(addPaymentPassRequestConfiguration: PassKit.PKAddPaymentPassRequestConfiguration?, tokenizationReceipt: Swift.String, primaryAccountIdentifier: Swift.String?, primaryAccountSuffix: Swift.String, cardholderName: Swift.String?, paymentNetwork: PassKit.PKPaymentNetwork?)
+  #endif
+  @objc deinit
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers final public class WPPInitResponse : ObjectiveC.NSObject {
   @objc final public let requestConfiguration: PassKit.PKAddPaymentPassRequestConfiguration?
+  @objc final public let tokenizationReceipt: Swift.String?
   @objc final public let canAddToWallet: Swift.Bool
   @objc final public let cardholderName: Swift.String?
   @objc final public let lastFourDigits: Swift.String?
@@ -54,11 +162,28 @@ public enum WPPError : Swift.Error, Foundation.LocalizedError {
   @objc final public let paymentNetwork: PassKit.PKPaymentNetwork?
   @objc deinit
 }
+@objc @objcMembers final public class WPPMeaEncryptedCardData : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let encryptedData: Swift.String
+  @objc final public let publicKeyFingerprint: Swift.String
+  @objc final public let encryptedKey: Swift.String
+  @objc final public let iv: Swift.String
+  @objc public init(encryptedData: Swift.String, publicKeyFingerprint: Swift.String, encryptedKey: Swift.String, iv: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func toData() -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func fromData(_ data: Foundation.Data) -> WPPSDK.WPPMeaEncryptedCardData?
+  #endif
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 @_inheritsConvenienceInitializers @objc final public class WibmoPushProvisionSDK : ObjectiveC.NSObject {
   public static var canAddPaymentPass: Swift.Bool {
     get
   }
   public static func canAddCard(primaryAccountIdentifier: Swift.String) -> Swift.Bool
+  public static func canAddCard(primaryAccountSuffix: Swift.String) -> Swift.Bool
   public static func configSDK(with config: [Swift.String : Any])
   #if compiler(>=5.3) && $NonescapableTypes
   public static func checkWallet(cardData: [Swift.String : Any], completion: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)
@@ -72,6 +197,30 @@ public enum WPPError : Swift.Error, Foundation.LocalizedError {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func completeProvisioning(tokenizationData: WPPSDK.CompletionData, completion: @escaping (Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> Swift.Void)
   #endif
+  public static func configureForExtension(configFileName: Swift.String = "bv_config")
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func initializeTokenization(encryptedData: WPPSDK.WPPEncryptedCardData, completion: @escaping (Swift.Result<WPPSDK.WPPExtensionTokenizationResult, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func completeTokenization(tokenizationReceipt: Swift.String, certificates: [Foundation.Data], nonce: Foundation.Data, nonceSignature: Foundation.Data, completion: @escaping (Swift.Result<PassKit.PKAddPaymentPassRequest, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func canAddToiPhone(primaryAccountIdentifier: Swift.String?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func canAddToWatch(primaryAccountIdentifier: Swift.String?) -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func initializeTokenizationWithProcessedData(processedData: WPPSDK.WPPMeaEncryptedCardData, completion: @escaping (Swift.Result<WPPSDK.WPPExtensionTokenizationResult, any Swift.Error>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func cacheCardForExtension(encryptedData: WPPSDK.WPPEncryptedCardData, response: WPPSDK.WPPInitResponse, displayName: Swift.String, cardArtData: Foundation.Data? = nil, appGroupId: Swift.String, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
+  #endif
+  public static func clearExtensionCache(appGroupId: Swift.String)
+  public static func removeCachedCard(lastFourDigits: Swift.String, appGroupId: Swift.String)
+  public static func getCachedCardsCount(appGroupId: Swift.String) -> Swift.Int
+  public static func getExtensionStatus(appGroupId: Swift.String) -> PassKit.PKIssuerProvisioningExtensionStatus
+  public static func getPassEntries(appGroupId: Swift.String, forRemote: Swift.Bool, completion: @escaping ([(entry: PassKit.PKIssuerProvisioningExtensionPaymentPassEntry, receipt: Swift.String)]) -> Swift.Void)
   public static func reset()
   public static var sdkVersion: Swift.String {
     get
