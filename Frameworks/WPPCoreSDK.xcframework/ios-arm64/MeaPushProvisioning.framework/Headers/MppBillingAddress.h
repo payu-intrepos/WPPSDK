@@ -72,7 +72,7 @@
                                                     city:(NSString *_Nullable)city
                                               postalCode:(NSString *_Nullable)postalCode
                                       countrySubdivision:(NSString *_Nullable)countrySubdivision
-                                                 country:(NSString *_Nonnull)country;
+                                                 country:(NSString *_Nullable)country;
 /**
  * Creates billing address with dictionary.
  *

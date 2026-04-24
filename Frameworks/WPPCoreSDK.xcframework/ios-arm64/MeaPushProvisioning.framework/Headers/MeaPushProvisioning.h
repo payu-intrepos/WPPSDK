@@ -472,7 +472,7 @@ completionHandler:(void (^)(MppCheckResponseData *_Nullable data, NSError *_Null
 + (void)push:(NSString *_Nullable)tokenRequestorId
 cardDataParameters:(MppCardDataParameters *_Nonnull)cardDataParameters
 consumerInformation:(MppConsumerInformation *_Nonnull)consumerInformation
-billingAddress:(MppBillingAddress *_Nonnull)billingAddress
+billingAddress:(MppBillingAddress *_Nullable)billingAddress
 completionHandler:(void (^)(MppPushResponseData *_Nullable data, NSError *_Nullable error))completionHandler;
 
 /**
@@ -583,7 +583,7 @@ __deprecated_msg("Use 'deleteConsumer:paymentNetwork:externalConsumerId:completi
            cardholderName:(NSString *_Nonnull)cardholderName
                expiryYear:(NSString *_Nonnull)expiryYear
               expiryMonth:(NSString *_Nonnull)expiryMonth
-           billingAddress:(MppBillingAddress *_Nonnull)billingAddress
+           billingAddress:(MppBillingAddress *_Nullable)billingAddress
         completionHandler:(void (^)(MppPushResponseData *_Nullable data, NSError *_Nullable error))completionHandler
 __deprecated_msg("Use 'updateCardDetails:paymentNetwork:externalConsumerId:cardDataParameters:cardholderName:expiryYear:expiryMonth:billingAddress:externalCardId:completionHandler:' instead.");
 
@@ -608,7 +608,7 @@ __deprecated_msg("Use 'updateCardDetails:paymentNetwork:externalConsumerId:cardD
            cardholderName:(NSString *_Nonnull)cardholderName
                expiryYear:(NSString *_Nonnull)expiryYear
               expiryMonth:(NSString *_Nonnull)expiryMonth
-           billingAddress:(MppBillingAddress *_Nonnull)billingAddress
+           billingAddress:(MppBillingAddress *_Nullable)billingAddress
            externalCardId:(NSString *_Nullable)externalCardId
         completionHandler:(void (^)(MppPushResponseData *_Nullable data, NSError *_Nullable error))completionHandler;
 
